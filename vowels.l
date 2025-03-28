@@ -4,21 +4,21 @@ int v=0, c=0;
 %}
 
 %%  
-[ \t]+ ;  // Ignore spaces and tabs
+[ \t]+ ;
 [aeiouAEIOU] { v++; }  
 [A-Za-z] { c++; }  
-\n { return 0; }  // Stop processing when Enter is pressed
+\n { return 0; }
 %%
 
 int main() {  
     printf("Enter the string:\n");  
-    yylex();  // Read and process input  
+    yylex();  
     printf("Number of Vowels: %d\n", v);  
     printf("Number of Consonants: %d\n", c);  
     return 0;  
 }  
 
 int yywrap() {  
-    return 1;  // Signals end of input
+    return 1;
 }  
 
