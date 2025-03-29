@@ -15,6 +15,7 @@ int main(){
 	printf("No of Lines: %d", l);
 	printf("No of Spaces: %d", s);
 	printf("No of Words: %d", w);
+	printf("No of Characters: %d", c);
 }
 
 
