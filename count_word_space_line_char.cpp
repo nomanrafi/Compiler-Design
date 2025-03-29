@@ -14,6 +14,7 @@ int main(){
 	yylex();
 	printf("No of Lines: %d", l);
 	printf("No of Spaces: %d", s);
+	printf("No of Words: %d", w);
 }
 
 
