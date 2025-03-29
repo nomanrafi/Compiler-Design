@@ -18,7 +18,8 @@ int main(){
 	printf("No of Characters: %d", c);
 }
 
-int yywrap(
-return 1;
-)
+int yywrap()
+{
+	return 1;
+}
 
