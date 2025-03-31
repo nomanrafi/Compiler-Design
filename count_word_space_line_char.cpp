@@ -10,12 +10,12 @@ int l=0, s=0, w=0, c=0;
 %%
 
 int main(){
-	printf("Enter the sentence: ");
+	printf("Enter the sentence: \n");
 	yylex();
-	printf("No of Lines: %d", l);
-	printf("No of Spaces: %d", s);
-	printf("No of Words: %d", w);
-	printf("No of Characters: %d", c);
+	printf("No of Lines: %d\n", l);
+	printf("No of Spaces: %d\n", s);
+	printf("No of Words: %d\n", w);
+	printf("No of Characters: %d\n", c);
 }
 
 int yywrap()
